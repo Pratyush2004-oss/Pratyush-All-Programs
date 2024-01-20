@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    .smart{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+
+</style>
+<body>
+    <h1>Hello World</h1>
+    <h1>Hello Pratyush</h1>
+    <h1>Kaise ho Pratyush</h1>
+
+    <div id="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cumque ipsa exercitationem, quia quae rem consequuntur illo sunt! Sit corrupti corporis vel, quisquam fugit quos sint voluptatibus, commodi perspiciatis facere delectus!</p>
+    </div>
+
+    <button onclick="abc()">Hide me</button>
+    <button onclick="bbc()">Show me</button>
+
+
+    <!-- <a href="https://google.com">google</a>
+    <a href="https://google.com">google</a>
+    <a href="https://google.com">google</a>
+
+    <img src="./" alt=""> -->
+
+
+<script>
+    function abc(){
+        // document.getElementById("box").innerHTML="<h1>hello Sauravji kaise ho</h1>";
+        // console.log(document.getElementById("box").innerHTML);
+        document.getElementById("box").setAttribute("class","smart");
+    }
+    function bbc(){
+        document.getElementById("box").setAttribute("class","show");
+    }
+
+    // let tagst = document.getElementsByTagName("h1")[2].innerText="Saurav theek ho";
+    // let tagsh = document.getElementsByTagName("h1")[2].innerHTML="<h5>Saurav theek ho</h5>";
+
+    // let box1 = document.getElementById("box").innerText="hello Saurav";
+    // let box2 = document.getElementById("box").innerHTML="<h1>hello Sauravji kaise ho</h1>";
+    // console.log(document.getElementById("box").innerHTML);
+
+
+    
+
+    // let body=document.body;
+    // console.log(body);
+
+    // let head=document.head;
+    // console.log(head);
+
+    // let links = document.links;
+    // console.log(links);
+
+    // let images = document.images;
+    // console.log(images);
+
+    // let url = document.URL;
+    // console.log(url);
+
+    // let domain = document.domain;
+    // console.log(domain);
+
+
+
+</script>
+
+</body>
+
+
+
+</html>

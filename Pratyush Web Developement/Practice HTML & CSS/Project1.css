@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+#about{
+    background-color: #e8f7f2;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+}
+p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#iputSection{
+    padding: 5px 5px 5px 5px;
+
+}
+input{
+    margin : 5px 5px 5px 5px;
+}

@@ -1,0 +1,58 @@
+#neha{
+    color: salmon;
+    text-align: center;
+    
+}
+#kanchan{
+    color: aqua;
+    text-align: end;
+}
+.family{
+    background-color: gray;
+    border: ridge 20px black;
+}
+p{
+    font-family: cursive;
+    /* font-size: 18px; */
+    font-weight:bold;
+    font-style: oblique;
+    line-height: 20px;
+    text-align:justify;
+    text-indent: 50px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-decoration:underline lightgreen double;
+    text-shadow: 0px 0px 25px black;
+    /* word-wrap:normal;
+    word-break: keep-all; */
+
+    border: groove 15px black;
+    /* border-left: 45px double blue; */
+    border-radius: 12px;
+    /* border-top-left-radius: 4px;  */
+    /* elemnets are of 2 types :
+        inline block elements : heading, paragraph, list, div
+        Inline elements : anchor, button, span, video, input, img 
+    */
+}
+span{
+    display: block;
+}
+
+video{
+    height: 200px;
+    width: 150px;
+}
+
+/* Padding and margin */
+
+#mishraji{
+    border:5px solid red;
+    padding: 51px 45px 86px 54px;
+    margin: 51px 45px 46px 54px;
+}
+
+/*
+    font-size : change font size
+    font-family : change font style 
+*/
